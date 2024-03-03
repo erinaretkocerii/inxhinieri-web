@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Projekti Selmin & Ereza</title>
+    <link rel="stylesheet" href="..\css\style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="..\img\logo.png" alt="">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Books</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="..\Img\cart.png" alt=""></a>
+                <a href="login.html"><img src="..\Img\user.png" alt=""></a>
+                <img src="..\Img\menuIcon.png" alt="" class="menuIcon" onclick="menuToggle()">
+            </div>
+        </div>
+        
+        <div class="image">
+            <div class="search">
+                <input class="searchbar" type="text" placeholder="Search" style="font-size: 15px; padding-left: 15px; color:black;">
+            </div>
+        </div>
+
+</header>
+    
+
+    <main>
+        <div class="bestseller">
+            <h2><span>Best Sellers</span></h2>
+            <br>
+            <div class="products">
+                <div class="productblock">
+                    <img src="..\Img\48L.jpg" alt="">
+                    <div class="productRight">
+                        <div class="productText">
+                            <p id="productName">48 Laws Of Power</p>
+                            <p id="author">Robert Greene</p>
+                            <p id="textDesc"><Strong>A self-help book offering advice on how to gain and maintain power,
+                                using lessons drawn from parables and the experiences of historical figures. 
+                                </Strong></p>
+                        </div>
+                        <div class="price">
+                            <p id="price"><strong>23€</strong></p><br>
+                            <div class="buttons">
+                                <button id="submit">Add to Cart</button>
+                                <img src="..\Img\wishlist.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="productblock">
+                    <img src="..\Img\think.jpg" alt="">
+                    <div class="productRight">
+                        <div class="productText">
+                            <p id="productName">Think And Grow Rich</p>
+                            <p id="author">Napoleon Hill</p>
+                            <p id="textDesc"><Strong>Representing the distilled wisdom of distinguished men of great wealth and achievement.</Strong></p>
+                        </div>
+                        <div class="price">
+                            <p id="price"><strong>13€</strong></p><br>
+                            <div class="buttons">
+                                <a href="login.html"><button id="submit">Add to Cart</button></a>
+                                <img src="..\Img\wishlist.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="productblock">
+                    <img src="..\Img\AW.jpg" alt="">
+                    <div class="productRight">
+                        <div class="productText">
+                            <p id="productName">The Art Of War</p>
+                            <p id="author">Sun Tzu</p>
+                            <p id="textDesc"><Strong>Ancient Chinese military treatise dating from the Late Spring and Autumn Period.
+                                Containing a detailed explanation and analysis of the 5th-century Chinese military,
+                                from weapons and strategy to rank and discipline.</Strong></p>
+                                
+                        </div>
+                        <div class="price">
+                            <p id="price"><strong>15€</strong></p><br>
+                            <div class="buttons">
+                                <button id="submit">Add to Cart</button>
+                                <img src="..\Img\wishlist.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="productblock">
+                        <img src="..\Img\Dazai.jpg" alt="">
+                        <div class="productRight">
+                            <div class="productText">
+                                <p id="productName">No Longer Human</p>
+                                <p id="author">Osamu Dazai</p>
+                                <p id="textDesc"><Strong>The poignant and fascinating story of a young man who is caught between the breakup of
+                                    the traditions of a northern Japanese aristocratic family and the impact of Western ideas.</Strong></p>
+                                    
+                            </div>
+                            <div class="price">
+                                <p id="price"><strong>22€</strong></p><br>
+                                <div class="buttons">
+                                    <button id="submit">Add to Cart</button>
+                                    <img src="..\Img\wishlist.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="productblock">
+                    <img src="..\Img\AH.jpg" alt="">
+                    <div class="productRight">
+                        <div class="productText">
+                            <p id="productName">Atomic Habits</p>
+                            <p id="author">James Clear</p>
+                            <p id="textDesc"><Strong>The most comprehensive and practical guide on how to create good habits, break bad ones,
+                                and get 1 percent better every day.</Strong></p>
+                            
+                        </div>
+                        <div class="price">
+                            <p id="price"><strong>20€</strong></p><br>
+                            <div class="buttons">
+                                <button id="submit">Add to Cart</button>
+                                <img src="..\Img\wishlist.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="productblock">
+                    <img src="..\Img\Ikigai.jpg" alt="">
+                    <div class="productRight">
+                        <div class="productText">
+                            <p id="productName">Ikigai</p>
+                            <p id="author">Francesc Miralles and Hector Garcia</p>
+                            <p id="textDesc"><Strong>Ikigai reveals the secrets to their longevity and happiness: how they eat, 
+                                how they move, how they work,how they foster collaboration.</Strong></p>
+                        </div>
+                        <div class="price">
+                            <p id="price"><strong>14€</strong></p><br>
+                            <div class="buttons">
+                                <button id="submit">Add to Cart</button>
+                                <img src="..\Img\wishlist.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------>
+
+        <div class="comingMain">
+            <h2><span>Coming Soon</span></h2><br>
+            
+            <div class="comingHead">
+                <!--Product 1-->
+                <div class="comingBlock">
+                    <img src="..\Img\CM.jpg" alt="">
+                        <div class="comingText">
+                            <p id="productName">Criminal Mischief</p>
+                            <p id="author">Stuart Woods</p>
+                            <p id="textDesc"><Strong>After a dangerous adventure has him traveling up and down the coast, 
+                                Stone Barrington is looking forward to some down time at his Manhattan abode. 
+                                But when an acquaintance alerts him to a hinky plot being hatched across the city, 
+                                he finds himself eager to pursue justice.</Strong></p>
+                            
+                        </div>
+                </div><!--End Product 1-->
+                <!--Product 2-->
+                <div class="comingBlock">
+                        <img src="..\Img\GRA.jpg" alt="">
+                        <div class="comingText">
+                            <p id="productName">Griffin Rogue Asset</p>
+                            <p id="author">Andrews & Wilson</p>
+                            <p id="textDesc"><Strong>The secretary of state has been kidnapped by Islamic extremists
+                                and his only hope for survival is a reconstituted Presidential Agent team
+                                in this revival of W. E. B. Griffin's New York Times bestselling series.</Strong></p>
+                            
+                        </div>
+                </div><!--End Product 2-->
+                <!--Product 3-->
+                <div class="comingBlock">
+                        <img src="..\Img\GO.jpg" alt="">
+                        <div class="comingText">
+                            <p id="productName">Game On</p>
+                            <p id="author">Janet Evanovich</p>
+                            <p id="textDesc"><Strong>Stephanie Plum returns to hunt down a new kind of criminal operating.</Strong></p>
+                            
+                        </div>
+                </div><!--End Product 3-->
+                <!--Product 4-->
+                <div class="comingBlock">
+                        <img src="..\Img\CUW.jpg" alt="">
+                        <div class="comingText">
+                            <p id="productName">Call Us What We Carry </p>
+                            <p id="author">Amanda Gorman</p>
+                            <p id="textDesc"><Strong>Formerly titled The Hill We Climb and Other Poems.It captures a shipwrecked moment
+                                in time and transforms it into a lyric of hope and healing.</Strong></p>
+                        </div>
+                </div><!--End Product 4-->
+            </div>
+        </div>
+        <!------------------------------------------------------>
+
+        <div class="reviews">
+            
+            <h2><span>Happy Customers</span></h2>
+            <br>
+            <div class="reviewsBlock">
+                <div class="r">
+                    <img src="..\Img\user1.jpg" alt="">
+                    <h4>Name #1</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe possimus accusamus accusantium delectus odio eius placeat ea atque! Nesciunt quibusdam placeat impedit corrupti, autem soluta tenetur! Quia, ipsum sed.</p>
+                    <h4>&#11088;4.5</h4>
+                </div>
+                <div class="r">
+                    <img src="..\Img\user2.png" alt="">
+                    <h4>Name #2</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe possimus accusamus accusantium delectus odio eius placeat ea atque! Nesciunt quibusdam placeat impedit corrupti, autem soluta tenetur! Quia, ipsum sed.</p>
+                    <h4>&#11088;4.5</h4>
+                </div>
+                <div class="r">
+                    <img src="..\Img\user3.jpg" alt="">
+                    <h4>Name #3</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe possimus accusamus accusantium delectus odio eius placeat ea atque! Nesciunt quibusdam placeat impedit corrupti, autem soluta tenetur! Quia, ipsum sed.</p>
+                    <h4>&#11088;4.5</h4>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------------>
+        <br>
+        <br>
+        <div class="newsletter">
+            <div class="newsText">
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur numquam sapiente accusamus? Odit dolor voluptatem ut, ipsa blanditiis ipsam, atque officiis eos, accusamus aliquid quisquam ab maxime vel quam!</p>
+                <div class="newsSearch">
+                    <input type="text" id="textbox" placeholder="Enter a avalid email address:" style="font-size: 15px; padding-left: 15px; color:black;">
+                    <a href=""><button id="submit">Submit</button></a>
+                </div>
+            </div>
+            
+            <img src="..\Img\newsletter.jpg" alt="">
+        </div>
+        
+                
+    </main>
+    <footer>
+        <div class="text">
+            <div class="fText">
+                <h4>Company</h4><br>
+                <ul>
+                    <li>About Us</li>
+                    <li>Our Services</li>
+                    <li>Contacts</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="fText">
+                <h4>Contact</h4><br>
+                <ul>
+                    <li>info@bookstore.com</li>
+                    <li>+000 00 000 000</li>
+                    <li>Social Media</li>
+                    <li>Social Media</li>
+                    
+                </ul>
+            </div>
+            <div class="fText">
+                <h4>Address</h4><br>
+                <ul>
+                    <li>8992 Magnolia Ave.</li>
+                    <li>Grosse Pointe</li>
+                    <li>Michigan</li>
+                    <li>48236</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <h3>Copyright &copy; Selmin & Ereza 2021</h3>
+    </footer>
+   
+    <script src="..\js\indexJS.js"></script>
+</body>
+</html

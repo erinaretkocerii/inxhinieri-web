@@ -1,0 +1,66 @@
+.comingMain{
+    margin:0 auto;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    max-width: 1400px;
+    border: blue 5px solid;
+}
+.comingHead{
+    display: flex;
+    border: solid red 3px;
+    justify-content: space-between;
+
+}
+
+.comingBlock{
+ display: flex;
+ flex-direction:column;
+ border: blue 2px solid;
+ width: 300px;
+ justify-content: center;
+ font-family:Century Gothic;
+    
+}
+
+
+
+.comingImg>img{
+    border: green 2px solid;
+    width: 300px;
+}
+.comingText{
+    
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+#productName{
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#author{
+    font-size:11px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#textDesc{
+    font-size:11px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#price{
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.rating {
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+}

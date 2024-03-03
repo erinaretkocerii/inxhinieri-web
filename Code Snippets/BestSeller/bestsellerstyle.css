@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+
+    
+}
+.bestseller{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-around;
+    
+}
+.prod1{
+    width: 420px;
+    height:300px;
+}
+.productBestSeller{
+    display: flex;
+    align-items: center;
+    font-family:Century Gothic;
+    
+    width:420px;
+    height:300px;
+    border: solid 1px black;
+    
+    
+}
+.B_img{
+    border: solid black 1px;
+}
+
+img{
+    width: 210px;
+    height:295px;
+}
+
+.rating{
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+#productName{
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#author{
+    font-size:11px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#textDesc{
+    font-size:11px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#price{
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 5px;
+
+
+}
+

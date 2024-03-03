@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTPAGE</title>
+    <link rel="stylesheet" href="..\css\style.css">
+    <link rel="stylesheet" href="..\css\loginStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="..\img\logo.png" alt="">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="..\html\index.html">Home</a></li>
+                        <li><a href="">Books</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="..\html\about.html">About Us</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="..\html\cart.html"><img src="..\Img\cart.png" alt=""></a>
+                <a href="..\html\login.html"><img src="..\Img\user.png" alt=""></a>
+                <img src="..\Img\menuIcon.png" alt="" class="menuIcon" onclick="menuToggle()">
+            </div>
+        </div>
+
+</div>
+
+</header>
+    <main>
+        <form action="">
+            <h1>Login</h1><br>
+           <div class="email">
+               <label for="Email">Email:</label><br>
+               <input type="email" id="email" >
+           </div><br>
+           <div class="password">
+            <label for="Password">Password:</label><br>
+            <input type="password" id="password" >
+        </div><br>
+        <input type="submit" value="Login" class="btn" id="loginButton">
+        <br>
+            <p id="no-acc-button">Don't have an account? <a href="..\html\register.html">Sign up.</a></p>
+        </form>
+    </main>
+    
+    <footer>
+        <div class="text">
+            <div class="fText">
+                <h4>Company</h4><br>
+                <ul>
+                    <li>About Us</li>
+                    <li>Our Services</li>
+                    <li>Contacts</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="fText">
+                <h4>Contact</h4><br>
+                <ul>
+                    <li>info@bookstore.com</li>
+                    <li>+000 00 000 000</li>
+                    <li>Social Media</li>
+                    <li>Social Media</li>
+                    
+                </ul>
+            </div>
+            <div class="fText">
+                <h4>Address</h4><br>
+                <ul>
+                    <li>8992 Magnolia Ave.</li>
+                    <li>Grosse Pointe</li>
+                    <li>Michigan</li>
+                    <li>48236</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <h3>Copyright &copy; Selmin & Ereza 2021</h3>
+    </footer>
+
+   
+    <script src="..\js\indexJS.js"></script>
+    <script src="..\js\validation.js"></script>
+</body>
+</html

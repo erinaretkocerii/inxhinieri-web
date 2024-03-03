@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        .loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width:500px;
+    margin:0 auto;
+    padding:40px;
+}
+
+h1,p,label{
+    font-family:Century Gothic;
+}
+
+#emailID{
+    width: 350px;
+    height:40px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-size: 20px;
+}
+
+#passwordID{
+    width: 350px;
+    height:40px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-size: 20px;
+
+}
+
+#loginButton{
+    width: 360px;
+    height:40px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    background-color:rgb(105, 243, 167);
+    font-size: 20px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="loginForm">
+        <h1 id="loginText" >LOGIN</h1>
+        <label for="">Email: <br> <input type="email" name="" id="emailID"></label><br>
+        <label for="">Password: <br> <input type="password" name="" id="passwordID"></label>
+        <br>
+        <a href="https://www.google.com/"><input type="submit" value="Login" id="loginButton"></a>
+        <p id="no-acc-button">Don't have an account? <a href="https://www.google.com/">Sign up.</a></p>
+    </div>
+    
+    
+</body>
+</html>
